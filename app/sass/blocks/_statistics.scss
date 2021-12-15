@@ -1,0 +1,21 @@
+.statistics {
+    padding: 192px 0 80px;
+    background: linear-gradient(180deg, #FAFAFA 0%, #E2E2E2 100%);
+    &__blocks {
+        display: flex;
+        &-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 25%;
+            margin-right: 30px;
+            padding: 30px 34px;
+            text-align: center;
+            background: #fff;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

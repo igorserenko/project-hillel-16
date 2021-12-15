@@ -1,0 +1,38 @@
+.footer {
+    &__link {
+        color: #fff;
+    }
+    &__container {
+        background: #16697A;
+        &-block {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 114px 50px 0;
+            &-box {
+                width: 20%;
+                &-list {
+                    &-item {
+                        margin-bottom: 10px;
+                        &-link {
+                            opacity: .8;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__rights {
+        &-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 40px 25px 0;
+            &-block {
+                &-link {
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.practice {
+    padding: 125px 0 80px;
+    background: #eeebeb;
+    &__blocks {
+        display: flex;
+        &-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 25%;
+            margin: 45px 15px 0 15px;
+            padding: 30px;
+            background: #FFFFFF;
+            &:first-child{
+                margin-left: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

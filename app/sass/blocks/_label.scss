@@ -1,0 +1,38 @@
+.label {
+    background: #FAFAFA;
+    &__trademark {
+        position: relative;
+        padding: 0 20px;
+        &::after {
+            content: '';
+            position: absolute;
+            left: -212px;
+            bottom: -143px;
+            width: 1440px;
+            height: 77px;
+            background: #252B42;
+        }
+        &-list {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+            align-self: center;
+            padding-bottom: 70px;
+        }
+    }
+    &__newslatter {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        margin: 0 30px;
+        padding: 30px 50px;
+        background: #16697A;
+        border-radius: 2px;
+    }
+}
+
+
+
+

@@ -1,0 +1,47 @@
+.provide {
+    background-image: url(../../img/background-provide.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 1440px 386px;
+    &__container {
+        position: relative;
+        display: flex;
+        &-block {
+            &-img::after {
+                content: "";
+                position: absolute;
+                left: 232px;
+                top: 173px;
+                width: 100px;
+                height: 100px;
+                background: #00A0C1;
+                background-image: url(../img/circle-play.svg);
+                background-repeat: no-repeat;
+                background-position: center center;
+                border-radius: 73.6px;
+                box-shadow: 1px 1px 8px #000;
+                cursor: pointer;
+            }
+            &-img {
+                margin-bottom: 96px;
+                &-item {
+                    box-shadow: 1px 1px 5px #000;
+                }
+            }
+            &-list {
+                height: 100%;
+                padding: 50px 0 47px 15px;
+                &-box {
+                    margin: 0 0 30px 20px;
+                }
+                &-item {
+                    display: flex;
+                    padding: 15px 0;
+                    &-box {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
